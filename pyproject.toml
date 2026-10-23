@@ -16,7 +16,7 @@ dependencies = [
     "opencv-python-headless>=5.0.0.93",
     "pillow>=13.0.0",
     "plotly>=7.1.0",
-    "pyvista[jupyter]>=0.49.1",
+    "pyvista[all,jupyter]>=0.49.1",
     "scipy>=1.18.1",
 ]
 

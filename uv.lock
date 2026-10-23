@@ -1,5 +1,5 @@
 version = 1
-revision = 5
+revision = 3
 requires-python = ">=3.14"
 
 [[package]]
@@ -441,12 +441,49 @@ wheels = [
 ]
 
 [[package]]
+name = "cmcrameri"
+version = "1.10"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "matplotlib" },
+    { name = "numpy" },
+    { name = "packaging" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/94/9e/43d76a835977e9d1b5cb1f9524004055c2d66a12406f91ef7262c83d1631/cmcrameri-1.10.tar.gz", hash = "sha256:38a776359040674cb4028695faf0121d0ccadb40eee0c9834eb4947674962b7e", size = 260605, upload-time = "2026-08-04T09:54:50.477Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/83/17/24e1d6d7a882a15fed5dcf7528891c9782613fd9a2ebe1bb426f4f1ef581/cmcrameri-1.10-py3-none-any.whl", hash = "sha256:0ccc9970fe35d74543bb8aeca5a5a97d8a09de71d2237d1bb714c9968cc2018d", size = 277668, upload-time = "2026-08-04T09:54:49.139Z" },
+]
+
+[[package]]
+name = "cmocean"
+version = "4.0.3"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "matplotlib" },
+    { name = "numpy" },
+    { name = "packaging" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/0e/93/6ce32a2749968071b5239c96c54a229f9cb666d1c2d2cead7246ef28282c/cmocean-4.0.3.tar.gz", hash = "sha256:37868399fb5f41b4eac596e69803f9bfaea49946514dfb2e7f48886854250d7c", size = 7145175, upload-time = "2024-04-06T01:05:26.398Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/86/7b/97754548e9da3d41d7334e375b2cd712e9406a3f48823a5f0a166f42d63d/cmocean-4.0.3-py3-none-any.whl", hash = "sha256:f2fc1d5e349db122ee0c9eac80bba969aa92dd2806548fce58dc8bef962f309e", size = 421873, upload-time = "2024-04-06T01:05:24.069Z" },
+]
+
+[[package]]
 name = "colorama"
 version = "0.4.6"
 source = { registry = "https://pypi.org/simple" }
 sdist = { url = "https://files.pythonhosted.org/packages/d8/53/6f443c9a4a8358a93a6792e2acffb9d9d5cb0a5cfd8802644b7b1c9a02e4/colorama-0.4.6.tar.gz", hash = "sha256:08695f5cb7ed6e0531a20572697297273c47b8cae5a63ffc6d6ed5c201be6e44", size = 27697, upload-time = "2022-10-25T02:36:22.414Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/d1/d6/3965ed04c63042e047cb6a3e6ed1a63a35087b6a609aa3a15ed8ac56c221/colorama-0.4.6-py2.py3-none-any.whl", hash = "sha256:4f1d9991f5acc0ca119f9d443620b77f9d6b33703e51011c16baf57afb285fc6", size = 25335, upload-time = "2022-10-25T02:36:20.889Z" },
+]
+
+[[package]]
+name = "colorcet"
+version = "3.2.1"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/3f/af/b969f541242b84cbbacabdf20862e487689e352bf0f02f90df2795d29da5/colorcet-3.2.1.tar.gz", hash = "sha256:48d9a67e6e59dc5c0a965aa1b46fe5d59cdc95cc36a95949f29313f950ac59f7", size = 2202958, upload-time = "2026-04-28T16:25:37.43Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/1b/24/e95471ae93c08d3606c9c7343cf65d490f154daa88b50581957a0aa780f4/colorcet-3.2.1-py3-none-any.whl", hash = "sha256:3f6fde13cef2169222dd5fe2a2bf847c02d644470fdf167ed566f6421df470f7", size = 262291, upload-time = "2026-04-28T16:25:35.365Z" },
 ]
 
 [[package]]
@@ -684,6 +721,15 @@ wheels = [
 ]
 
 [[package]]
+name = "fsspec"
+version = "2026.9.0"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/77/cd/9be253869fc42e764de7f3dedd6969af7d44ff9c3375214a3442a6f3fc08/fsspec-2026.9.0.tar.gz", hash = "sha256:0f08147951c8cb31d844c3547d631053b127863b60be04cf06e121333ee0e2fe", size = 333545, upload-time = "2026-09-18T17:50:42.825Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/6c/c0/a98505f18594f1bce828bb159cec0fcf9860562f1a2c85913409fc8f3d9e/fsspec-2026.9.0-py3-none-any.whl", hash = "sha256:8dd6e646e99ea382bd85f97a45e6b526a442d79423a7dc673f1e2756d05fcb5f", size = 221738, upload-time = "2026-09-18T17:50:41.341Z" },
+]
+
+[[package]]
 name = "h11"
 version = "0.16.0"
 source = { registry = "https://pypi.org/simple" }
@@ -727,6 +773,19 @@ source = { registry = "https://pypi.org/simple" }
 sdist = { url = "https://files.pythonhosted.org/packages/f5/08/8eea9d4b8302028f3abb2c0813953f7aec26d33b7a8960ed760e65ff29fa/idna-3.20.tar.gz", hash = "sha256:a7db850025b95ded1eae8a46181a1a6c56c92c96f0e2b005d9ff8dc0210cab44", size = 216463, upload-time = "2026-09-17T14:11:04.752Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/58/a2/bb081bab032533a855d44de1d56f8e8426114ff1ba5d1f07a438a0a654f8/idna-3.20-py3-none-any.whl", hash = "sha256:ab7ae7122974553370f0bdb919e1a960b2cd1bc1ef0276416d896db81c14582c", size = 69583, upload-time = "2026-09-17T14:11:03.168Z" },
+]
+
+[[package]]
+name = "imageio"
+version = "2.38.1"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "numpy" },
+    { name = "pillow" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/f3/cd/69e4ac55b6dafdd2b5f32075236841a3945dea7323d0232d80f28c37cea8/imageio-2.38.1.tar.gz", hash = "sha256:6769f1f01c4dd46448307863a787c9a22fa4dbe11c0c88f525c6e410fdfd7983", size = 403667, upload-time = "2026-10-08T14:35:32.961Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/7d/8a/3b7f62b9df56460959f1b9bef094248d2a4d7f393c5b0d2da8efcdf0e40e/imageio-2.38.1-py3-none-any.whl", hash = "sha256:36d23eb7423d2fb63f637098758edb3d2df3687f7125e0a5ce8596572022dcf9", size = 328389, upload-time = "2026-10-08T14:35:31.075Z" },
 ]
 
 [[package]]
@@ -1378,6 +1437,19 @@ wheels = [
 ]
 
 [[package]]
+name = "meshio"
+version = "5.3.5"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "numpy" },
+    { name = "rich" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/20/1e/caa4f15c020de3e3486b4133ca689236bd3863a3d6dd0f58e97ce86a296a/meshio-5.3.5.tar.gz", hash = "sha256:f21f01abd9f29ba06ea119304b3d39e610421cfe93b9dd23362834919f87586d", size = 490922, upload-time = "2024-01-31T15:09:41.731Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/89/5f/39cbadc320cd78f4834b0a9f7a2fa3c980dca942bf193f315837eacb8870/meshio-5.3.5-py3-none-any.whl", hash = "sha256:0736c6e34ecc768f62f2cde5d8233a3529512a9399b25c68ea2ca0d5900cdc10", size = 166162, upload-time = "2024-01-31T15:09:36.691Z" },
+]
+
+[[package]]
 name = "mistune"
 version = "3.4.0"
 source = { registry = "https://pypi.org/simple" }
@@ -1756,7 +1828,7 @@ dependencies = [
     { name = "opencv-python-headless" },
     { name = "pillow" },
     { name = "plotly" },
-    { name = "pyvista", extra = ["jupyter"] },
+    { name = "pyvista", extra = ["all", "jupyter"] },
     { name = "scipy" },
 ]
 
@@ -1770,7 +1842,7 @@ requires-dist = [
     { name = "opencv-python-headless", specifier = ">=5.0.0.93" },
     { name = "pillow", specifier = ">=13.0.0" },
     { name = "plotly", specifier = ">=7.1.0" },
-    { name = "pyvista", extras = ["jupyter"], specifier = ">=0.49.1" },
+    { name = "pyvista", extras = ["all", "jupyter"], specifier = ">=0.49.1" },
     { name = "scipy", specifier = ">=1.18.1" },
 ]
 
@@ -2108,8 +2180,70 @@ wheels = [
 ]
 
 [package.optional-dependencies]
+all = [
+    { name = "cmcrameri" },
+    { name = "cmocean" },
+    { name = "colorcet" },
+    { name = "fsspec" },
+    { name = "imageio" },
+    { name = "meshio" },
+    { name = "pyvista-frd-reader" },
+    { name = "pyvista-miniply" },
+    { name = "pyvista-stl" },
+    { name = "pyvista-zstd" },
+    { name = "trame-pyvista", extra = ["jupyter"] },
+]
 jupyter = [
     { name = "trame-pyvista", extra = ["jupyter"] },
+]
+
+[[package]]
+name = "pyvista-frd-reader"
+version = "0.3.1"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "numpy" },
+    { name = "pyvista" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/8c/87/2068f5838f2afea773897a038942edb0f91fa3c395d2c5f588e7092e274d/pyvista_frd_reader-0.3.1.tar.gz", hash = "sha256:c76787ee8e83d6300fe6f9d749a682254f4fc10e091a99296a7d866a04669b1f", size = 1379864, upload-time = "2026-10-09T05:06:05.233Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/8b/40/59d27da4bab31b22d2136aa121922d9c7d99967e12d03639073f6d0ca28a/pyvista_frd_reader-0.3.1-py3-none-macosx_10_15_x86_64.whl", hash = "sha256:441e8a98430681fbdc92d231cdc1da222cb5fe41b366ac732a1ce78c3df6980d", size = 132237, upload-time = "2026-10-09T05:05:58.384Z" },
+    { url = "https://files.pythonhosted.org/packages/95/92/f8c85abb4ba3c258c58df9f83759b3da402fdf31f7269a9ba4aa3ed6b34f/pyvista_frd_reader-0.3.1-py3-none-macosx_11_0_arm64.whl", hash = "sha256:9fec02806d83efbad8c2afc00e41cef52152a2d4b625ae71d33139d47020d72c", size = 123356, upload-time = "2026-10-09T05:05:59.97Z" },
+    { url = "https://files.pythonhosted.org/packages/03/aa/e21f7cc68a8fee9bcd5160467e324a64a0a6961025d6e9f08b9bc6a0bc2a/pyvista_frd_reader-0.3.1-py3-none-manylinux_2_24_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:5841b88ebcec8d922a0fee7e091155695b4084ad4681615f33525a7611262539", size = 140859, upload-time = "2026-10-09T05:06:01.188Z" },
+    { url = "https://files.pythonhosted.org/packages/25/23/b0b53f4dad75b1f83186c2780a5306da90cc6f282d86b2d036e5994a4910/pyvista_frd_reader-0.3.1-py3-none-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:847745c83ffcc2810fb2283379e603fa4dfcd364e611e96f5e30bd3f1e092999", size = 153971, upload-time = "2026-10-09T05:06:02.408Z" },
+    { url = "https://files.pythonhosted.org/packages/4e/95/fa7063f765a267d90fc8a7a0422ff4764dcf071633f9e1fb6138534af8ba/pyvista_frd_reader-0.3.1-py3-none-win_amd64.whl", hash = "sha256:2d12e3782e1dc430b14e0152950c62a71a8034b2ea93fb42cea454096431a818", size = 135807, upload-time = "2026-10-09T05:06:03.799Z" },
+]
+
+[[package]]
+name = "pyvista-miniply"
+version = "0.5.2"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "numpy" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/c2/0a/c190e08916aace3d19db69412f08347e0012b70f2e683449ad2c0a6cb94d/pyvista_miniply-0.5.2.tar.gz", hash = "sha256:99f57400dc04666e81d97307ec38e8fdaf60c4aeca220637a7c6b6ac506ae3f8", size = 28705, upload-time = "2026-09-03T15:08:13.281Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/d0/3a/9593a3121ccccec606e27def3684e24c37fda06afe9d3bfabd5e8e03414b/pyvista_miniply-0.5.2-cp312-abi3-macosx_10_14_x86_64.whl", hash = "sha256:a0cc1fa6865c471858c0e089d4b76b123a460139864fab432387d9e1a3975742", size = 70015, upload-time = "2026-09-03T15:08:07.071Z" },
+    { url = "https://files.pythonhosted.org/packages/92/07/4d4bb7be1b159963b72892d927265f1e4a359f0c2bbdc0b22985f2fe7db8/pyvista_miniply-0.5.2-cp312-abi3-macosx_11_0_arm64.whl", hash = "sha256:c98b0d2cec06a1be917fa4bbe20fba9ee83fefa36df5fddcf6a91cab2f99e5f3", size = 67294, upload-time = "2026-09-03T15:08:08.223Z" },
+    { url = "https://files.pythonhosted.org/packages/60/c5/ea88c342a3f7d16ea9abbf06833e73ba9d63600672afcbcb4d037ac5dbf3/pyvista_miniply-0.5.2-cp312-abi3-manylinux_2_26_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:602eee2c2b1d40da2084c5ff1a20dc50916762046c1775d101f8270448ae798f", size = 79376, upload-time = "2026-09-03T15:08:09.737Z" },
+    { url = "https://files.pythonhosted.org/packages/07/ac/efb45eebe3ed0b17af33422a90e7437373a94e20b0d6bb05c27ed3124111/pyvista_miniply-0.5.2-cp312-abi3-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:ef64bac638860ed86e0e1121baf74935b90aa24e49bb06d84ad95f1fa221857e", size = 81108, upload-time = "2026-09-03T15:08:10.835Z" },
+    { url = "https://files.pythonhosted.org/packages/2d/21/9ce54092aa98c6ffe3c447b474b5a92c2774cb2f3d6799fe3a310bb57e8f/pyvista_miniply-0.5.2-cp312-abi3-win_amd64.whl", hash = "sha256:8b6142a09e349bbb3922c2f84ccd4e9d0a54750b76c882cf865f2b9fa28c7730", size = 96499, upload-time = "2026-09-03T15:08:12.228Z" },
+]
+
+[[package]]
+name = "pyvista-stl"
+version = "0.5.3"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "numpy" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/84/42/2e0222e47771641d257258d08f4dc5a773b3bef2b54344512c6f833be717/pyvista_stl-0.5.3.tar.gz", hash = "sha256:19c2ddd6e08cd61b3a1cbc8559c5795be9e9d4ab3d7cbefd6a5f10a77cbff010", size = 27935, upload-time = "2026-09-02T19:23:39.08Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/50/2a/74e82f161c0bd06939b4050b471ab4a2603fea1fc997a6299a442e0410b5/pyvista_stl-0.5.3-cp312-abi3-macosx_10_14_x86_64.whl", hash = "sha256:52dfc1cfde61a11401318988a8b3ab43f07739e35d033237be9270a3533fc608", size = 62226, upload-time = "2026-09-02T19:23:32.952Z" },
+    { url = "https://files.pythonhosted.org/packages/ae/9d/d83961d4fb5be8ccdc55ecb38eee59bf7814f46efa2bdc1c8003558c485e/pyvista_stl-0.5.3-cp312-abi3-macosx_11_0_arm64.whl", hash = "sha256:3dfcf05272252946c5e5c826d33ec9e5583f24f7d80c3754eff31d65cabf5b7c", size = 60686, upload-time = "2026-09-02T19:23:34.221Z" },
+    { url = "https://files.pythonhosted.org/packages/f8/bd/515d8f6c6849537ac07e0b4ae31f818b3e8688823217e74d12cb153e2cd4/pyvista_stl-0.5.3-cp312-abi3-manylinux_2_26_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:5406f0a27fb3ddfb3c4a46572e41780db22258b747bbef46fbae0a804de49df0", size = 67919, upload-time = "2026-09-02T19:23:35.372Z" },
+    { url = "https://files.pythonhosted.org/packages/e3/c7/74dfcba6aff694db601d7f3a8a2b9785c93bd0944f8ba8be317f17fa6245/pyvista_stl-0.5.3-cp312-abi3-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:cf28139389d5b34780c19c238629a8bf9e9a2bea13b199c5a5b32222f8f2e2b5", size = 71905, upload-time = "2026-09-02T19:23:36.495Z" },
+    { url = "https://files.pythonhosted.org/packages/22/ae/9173544045c9f33ddba54c4189a8dadf3b20c3070bcbcca54110d16d1c8b/pyvista_stl-0.5.3-cp312-abi3-win_amd64.whl", hash = "sha256:35eadf171ba3cd92dd947adddb8a4e81d23f7d3c562c8c131f75c999ee5d7252", size = 280190, upload-time = "2026-09-02T19:23:37.703Z" },
 ]
 
 [[package]]
@@ -2129,6 +2263,25 @@ wheels = [
     { url = "https://files.pythonhosted.org/packages/51/c9/1dd3831f373dfc0b3ba8fe3a8de0b17f4b8610df9f262f6904f20f7d507b/pyvista_validation-0.2.2-cp310-abi3-musllinux_1_2_x86_64.whl", hash = "sha256:672991acf11588de5ce4042cf4f1cc59d0f2b0e84bca792c3358fac6b07e2b38", size = 259212, upload-time = "2026-09-06T08:42:10.297Z" },
     { url = "https://files.pythonhosted.org/packages/5b/8a/fe3dd14c804dc8bfade2d247f33fedaa3ebebf916f12cdd002203440b82b/pyvista_validation-0.2.2-cp310-abi3-win32.whl", hash = "sha256:6ba8b5f39a9c4e1f75c4dd9adc037cfeb5a50be9fdb93d787a34e98245bba51a", size = 68929, upload-time = "2026-09-06T08:42:11.649Z" },
     { url = "https://files.pythonhosted.org/packages/21/fc/b98d6dbbd458eeb197b63486c64eb8ed3ef1216d4bf17c353d1153edca97/pyvista_validation-0.2.2-cp310-abi3-win_amd64.whl", hash = "sha256:9ee46b4177e6b8fcc5d750d9c471d30fa05f1384668a67cef0b19a700a797659", size = 74885, upload-time = "2026-09-06T08:42:12.861Z" },
+]
+
+[[package]]
+name = "pyvista-zstd"
+version = "0.7.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "pyvista" },
+    { name = "vtk" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/5f/b7/081fd6742fd9a6a013c7d282e92be47f2c88ee8d73484a2c83fd4d6b55ac/pyvista_zstd-0.7.0.tar.gz", hash = "sha256:838a48031fde2f93f2aad7b7a80b9dc07bb7c312a8642fd6bd06215da9becc56", size = 1221784, upload-time = "2026-10-19T02:09:42.536Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/db/c1/81e2bb53b4e608a5643ef9f20a9a483c446b9e08dab543c1c6b063b778df/pyvista_zstd-0.7.0-py3-none-macosx_10_15_x86_64.whl", hash = "sha256:fa0bc8f09ecb91b286cb232a4f71b22f1d587b02ee176090c4d76c474d86a7d1", size = 395103, upload-time = "2026-10-19T02:09:29.851Z" },
+    { url = "https://files.pythonhosted.org/packages/82/e4/e92cf533f946514dc51315880d4fd85c8840805d6983c1c0569334d80a85/pyvista_zstd-0.7.0-py3-none-macosx_11_0_arm64.whl", hash = "sha256:84a701e30ea0bfa52fda27b28161f67956f768f24ebaf530fbedd563d06d8c86", size = 327819, upload-time = "2026-10-19T02:09:31.69Z" },
+    { url = "https://files.pythonhosted.org/packages/a6/ad/5f36d6da36c2f07cd38b203fdfd08f92d26f12739566005c668877eb67be/pyvista_zstd-0.7.0-py3-none-manylinux2014_aarch64.manylinux_2_17_aarch64.whl", hash = "sha256:a146e518d4f9fe8fc62fcbf1a022bf87b15f8f7d9c1c1d2d0683c13d81e57c7e", size = 468932, upload-time = "2026-10-19T02:09:33.444Z" },
+    { url = "https://files.pythonhosted.org/packages/26/8e/e4b54c3e3ddb33d194127ff186be33ba2bd9b32804daf3d3513668b888d5/pyvista_zstd-0.7.0-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl", hash = "sha256:fc9462de55b11a74e2d64ad74dce44a2c62ded033163d67fbd4b6eba1ede23f0", size = 478764, upload-time = "2026-10-19T02:09:35.044Z" },
+    { url = "https://files.pythonhosted.org/packages/7b/6d/a704a567aaf0d991e2f2e03b9450d283462805aad104589fa467b1dc3540/pyvista_zstd-0.7.0-py3-none-manylinux_2_24_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:e25b6a43ca60fdeda32f1f99162825f1d2539bc43918375fe82c74820f60f97b", size = 447948, upload-time = "2026-10-19T02:09:36.702Z" },
+    { url = "https://files.pythonhosted.org/packages/54/ac/ce97875967690270b53c9ac2efb9e076727fb151684764a0748713c3f9b2/pyvista_zstd-0.7.0-py3-none-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:c978f99665291377c87b6bebfc3a52e8e28dfa6a672cf3eac8ab37d58ea6846c", size = 462754, upload-time = "2026-10-19T02:09:38.516Z" },
+    { url = "https://files.pythonhosted.org/packages/af/d9/34eaec17b9db70a2adf826a979441e52a8510369a9629e63f0fa585981ef/pyvista_zstd-0.7.0-py3-none-win_amd64.whl", hash = "sha256:65a4e5135e924c8b0ffee8f8ae7824ddff3566bda37bf5bdec501274464d2d2a", size = 290415, upload-time = "2026-10-19T02:09:40.802Z" },
 ]
 
 [[package]]
